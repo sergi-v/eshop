@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sergi_v_eshop_1705679524507-push-trigger-input-set
+  identifier: Build_sergi_v_eshop_1705679524507pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sergi_v_eshop_1705679524507
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
